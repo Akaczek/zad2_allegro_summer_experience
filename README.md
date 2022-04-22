@@ -30,6 +30,6 @@ Po naciśnięciu na jedno z takich repozytoriów, rozwija się pod nim lista zaw
 ## Zasada działania  
 
 Aplikacja została stworzona wykorzystując React'a.  
-Strona została zbudowana z komponentów funkcyjnych.
+Strona została zbudowana z komponentów funkcyjnych.  
 Dane pobierane są z [GitHub REST Api](https://docs.github.com/en/rest), a następnie przetwarzane i wyświetlane.
 
