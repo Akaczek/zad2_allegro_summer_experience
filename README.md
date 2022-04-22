@@ -22,7 +22,9 @@ Jeśli wszystko się powiedzie aplikacja powinna działać pod adresem [http://l
 ## Użycie  
 
 Aby znaleźć użytkownika należy wpisać jego nazwę (np. "allegro") w okienko znajdujące się po lewej stronie.  
+
 Po naciśnięciu klawisza Enter lub przycisku "Szukaj" należy chwilę odczekać i jeśli taki użytkownik istnieje to po prawej stronie pojawi się lista jego repozytoriów. Jeśli takiego użytkownika nie ma to wyświetli się stosowna informacja.  
+
 Po naciśnięciu na jedno z takich repozytoriów, rozwija się pod nim lista zawierająca informacje o tym jakie języki programowania zostały w nim wykorzystane i ile bajtów zajmują.
 
 ---
@@ -30,6 +32,8 @@ Po naciśnięciu na jedno z takich repozytoriów, rozwija się pod nim lista zaw
 ## Zasada działania  
 
 Aplikacja została stworzona wykorzystując React'a.  
+
 Strona została zbudowana z komponentów funkcyjnych.  
+
 Dane pobierane są z [GitHub REST Api](https://docs.github.com/en/rest), a następnie przetwarzane i wyświetlane.
 
